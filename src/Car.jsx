@@ -4,6 +4,7 @@ import Summary from "./REQ6/Summary";
 import Time from "./REQ6/Time";
 import background from "../src/img/background.jpeg";
 import React from "react";
+import "../src/carrito.css";
 
 function Car() {
   return (

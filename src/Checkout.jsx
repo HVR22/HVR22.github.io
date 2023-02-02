@@ -54,12 +54,6 @@ function Checkout() {
                     className="form-label"
                   >
                     Nombre
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="firstName"
-                      placeholder="Ingresa nombre"
-                    />
                   </label>
                   <input
                     type="text"

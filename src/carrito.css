@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanuman", serif;
+}
+
+.nav-link {
+  margin-top: 6px;
+}
+
+.navbar-brand {
+  padding-left: 15px;
+}
+
+.Buscar {
+  padding-right: 15px;
+}

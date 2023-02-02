@@ -11,6 +11,7 @@ import Dishes from "./Dishes";
 import Finish from "./Finish";
 import Header from "../src/Header";
 import "../src/estilos.css";
+import Success from "./Success";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,6 +23,7 @@ root.render(
         <Route path="/REQ7" element={<Checkout />} />
         <Route path="/REQ10" element={<Dishes />} />
         <Route path="/REQ15" element={<Finish />} />
+        <Route path="/Success" element={<Success />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
