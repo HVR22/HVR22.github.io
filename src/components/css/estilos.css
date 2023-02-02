@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap');
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #777;
+    line-height: 1.7; 
+    
+}
+
+/* navbar */
+
+.nav-link {
+    margin-top: 6px;
+}
+
+.navbar-brand {
+    padding-left: 15px
+}
+
+.Buscar {
+    padding-right: 15px;
+}
+
+.nav-item{
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+p{
+    color:black;
+}
+
+
+img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.shadow-on-hover {
+    transition: all 0.3s;
+}
+
+.shadow-on-hover:hover {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* registro */
+#registro{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/components/assets/cover4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+/* menu */
+
+#menu{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/components/assets/cover1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+#menu .nav-pills .nav-link {
+    background-color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #222;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+#menu .nav-pills .nav-link.active {
+    background-color: #F58d17;
+    color: #ffffff;
+} 
+
+.menu-item .stars {
+    color: #F58d17;
+}
+
+.menu-item a:hover{
+    color: #F58d17;
+    
+}
+
+.menu-item p{
+    color: black;
+}
+
+
+/* Btn */
+.btn {
+    border-radius: 0;
+    padding: 14px 38px;
+}
+
+.btn-brand {
+    color: #fff;
+    font-weight: 500;
+    border-color: #F58d17;
+    background-color: #F58d17;
+}
+
+.btn-brand:hover {
+    border-color: #d37810;
+    background-color: #d37810;
+    color: #fff;
+}
+#platosCarnes {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/components/assets/cover2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.platos-carnes img {
+    width: 40%;
+    object-fit: cover;
+}
+
+.platos-carnes a {
+    color: white;
+
+}
+.platos-carnes a:hover{
+    color: #F58d17;
+}
+
+.platos-carnes p{
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .platos-carnes {
+        flex-direction: column;
+    }
+    .platos-carnes img {
+        width: 100%;
+    }
+}
+
+
+/* Footer */
+footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/src/components/assets/cover3.jpg);
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.footer-top {
+    margin-bottom: 30px;
+}
+
+footer p,
+footer a{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+footer .social-links a {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+footer img {
+    max-width: 175px;
+}
+
+.footer-bottom {
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
