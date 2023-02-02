@@ -11,6 +11,16 @@ const Menu = () => {
         
         <div class='collapse navbar-collapse' id='navbarNav'>
           <ul className='navbar-nav'>
+          <li className='nav-item' >
+              <NavLink 
+               to='/App' 
+               className={({ isActive }) =>
+               isActive
+                    ? 'nav-link active text-danger bg-light'
+                    : 'nav-link inactive'}>
+                Index
+              </NavLink>
+            </li>
             <li className='nav-item' >
               <NavLink 
                to='/Todos' 
